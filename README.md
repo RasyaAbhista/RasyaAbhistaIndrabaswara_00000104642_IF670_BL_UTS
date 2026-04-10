@@ -28,7 +28,6 @@ Berikut adalah video tutorial penggunaan aplikasi:
 
 👉 https://drive.google.com/file/d/1tLjZMPA7a4ICJiv-j2Mz7Qt1m9D1rzIM/view?usp=drivesdk
 
----
 
 ---
 
