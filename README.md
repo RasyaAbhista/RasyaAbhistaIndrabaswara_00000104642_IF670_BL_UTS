@@ -1,50 +1,147 @@
-# Welcome to your Expo app 👋
+# 📱 UTS Mobile Cross Platform
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 👤 Identitas
+Nama: Rasya Abhista Indrabaswara  
+NIM: 00000104642  
+Kelas: IF670-BL  
 
-## Get started
+---
 
-1. Install dependencies
+## 📌 Deskripsi Aplikasi
+Aplikasi mobile berbasis React Native menggunakan Expo.  
+Project ini dibuat untuk memenuhi tugas UTS Mobile Cross Platform.
 
-   ```bash
-   npm install
-   ```
+## 🔐 Akses Login
 
-2. Start the app
+Gunakan akun berikut untuk masuk ke aplikasi:
 
-   ```bash
-   npx expo start
-   ```
+- **Email:** user  
+- **Password:** password123  
 
-In the output, you'll find options to open the app in a
+Setelah login berhasil, pengguna akan diarahkan ke halaman **Homepage**.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🎥 Tutorial Penggunaan Aplikasi
 
-## Get a fresh project
+Berikut adalah video tutorial penggunaan aplikasi:
 
-When you're ready, run:
+👉 https://drive.google.com/file/d/1tLjZMPA7a4ICJiv-j2Mz7Qt1m9D1rzIM/view?usp=drivesdk
 
+---
+
+---
+
+## 🚀 Cara Menjalankan Project
+
+### 1. Install semua dependencies
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Jalankan aplikasi
+```bash
+npx expo start
+```
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📦 Library yang Digunakan
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 🔹 Core
+```bash
+npm install expo
+npm install react react-native
+npm install react-dom react-native-web
+```
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+### 🔹 Navigation
+```bash
+npm install expo-router
+npm install @react-navigation/native
+npm install @react-navigation/bottom-tabs
+npm install @react-navigation/elements
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+### 🔹 UI & Assets
+```bash
+npm install @expo/vector-icons
+npm install react-native-vector-icons
+npm install expo-image
+npm install react-native-svg
+npm install react-native-svg-transformer
+npm install react-native-swiper
+npm install swiper
+```
+
+---
+
+### 🔹 Device & System
+```bash
+npm install expo-constants
+npm install expo-haptics
+npm install expo-system-ui
+npm install expo-status-bar
+npm install expo-splash-screen
+npm install expo-web-browser
+npm install expo-linking
+npm install expo-symbols
+```
+
+---
+
+### 🔹 Storage & Data
+```bash
+npm install @react-native-async-storage/async-storage
+```
+
+---
+
+### 🔹 Media & Font
+```bash
+npm install expo-font
+npm install expo-image-picker
+```
+
+---
+
+### 🔹 Support Libraries
+```bash
+npm install react-native-gesture-handler
+npm install react-native-reanimated
+npm install react-native-safe-area-context
+npm install react-native-screens
+npm install react-native-worklets
+```
+
+---
+
+## ⚠️ Catatan Penting
+- Semua library di atas sebenarnya sudah terinstall melalui:
+```bash
+npm install
+```
+- Tidak perlu install satu per satu kecuali ingin manual setup.
+
+---
+
+## 📁 Struktur Folder
+- `app/` → halaman aplikasi (routing)
+- `assets/` → gambar & resource
+- `context/` → state management
+- `components/` → komponen UI
+
+---
+
+## 📱 Cara Menjalankan di Device
+- Gunakan **Expo Go** (scan QR)
+- Atau Android Emulator / iOS Simulator
+
+---
+
+## 📝 Penutup
+Project ini dibuat untuk keperluan pembelajaran (UTS Mobile Cross Platform).
